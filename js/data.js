@@ -1,5 +1,5 @@
 var releaseDate = "April 15 2013, 0:00";
-var possibleNextAnnouncementDate = "May 4, 2022 15:00";
+var possibleNextAnnouncementDate = "May 4 2022, 15:00";
 var nextAnniversary = "April 15 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
