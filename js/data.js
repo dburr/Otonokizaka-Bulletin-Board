@@ -7,13 +7,64 @@ var timerData = [
 	{
         "type": "Event",
         "title": [
-			"Round 31 MEDLEY FESTIVAL"
+			"Rhythmic Carnival"
         ],
         "image": [
             "imgs/0704/banner_0576_m.png"
         ],
         "column": 0,
         "priority": 14,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 29 2022, 16:00",
+				end: "May 2 2022, 14:59",
+				extraPriority: 100,
+				markers: [
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "Apr 30 2022, 12:00",
+					type: "story"
+				},
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "Apr 30 2022, 17:00",
+					type: "story"
+				},
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "Apr 30 2022, 21:00",
+					type: "story"
+				},
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "May 01 2022, 12:00",
+					type: "story"
+				},
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "May 01 2022, 17:00",
+					type: "story"
+				},
+				{
+					title: "5x EXP (for 2 hours)",
+					time: "May 01 2022, 21:00",
+					type: "story"
+				}
+				]
+			}
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+			"Round 31 MEDLEY FESTIVAL"
+        ],
+        "image": [
+            "imgs/0704/banner_0576_m.png"
+        ],
+        "column": 0,
+        "priority": 4,
         "timers": [
 			{
 				name: "Main Event",
@@ -31,7 +82,7 @@ var timerData = [
             "imgs/0704/banner_0576_m.png"
         ],
         "column": 0,
-        "priority": 14,
+        "priority": 3,
         "timers": [
 			{
 				name: "Main Event",
@@ -49,7 +100,7 @@ var timerData = [
             "imgs/0704/banner_0576_m.png"
         ],
         "column": 0,
-        "priority": 14,
+        "priority": 2,
         "timers": [
 			{
 				name: "Main Event",
@@ -58,29 +109,47 @@ var timerData = [
                 markers: [
                     {
                         title: "Period 1",
-                        time: "Apr 30 2022, 15:59",
+                        time: "Apr 5 2022, 00:00",
                         type: "story"
                     },
                     {
                         title: "Period 2",
-                        time: "May 15 2022, 15:59",
+                        time: "Apr 30 2022, 16:00",
                         type: "story"
                     },
                     {
                         title: "Period 3",
-                        time: "May 31 2022, 15:59",
+                        time: "May 15 2022, 16:00",
                         type: "story"
                     },
                     {
                         title: "Period 4",
-                        time: "Jun 10 2022, 23:59",
+                        time: "May 31 2022, 16:00",
                         type: "story"
                     }
                 ]
 			}
         ]
     },
-
+	{
+        "type": "Event",
+        "title": [
+			"9th Anniversary Music Festival"
+        ],
+        "image": [
+            "imgs/0704/banner_0576_m.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 5 2022, 16:00",
+				end: "Apr 25 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
