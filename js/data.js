@@ -40,7 +40,48 @@ var timerData = [
 			}
         ]
     },
-{
+	{
+        "type": "Event",
+        "title": [
+			"9th Anniversary Big Lottery"
+        ],
+        "image": [
+            "imgs/0704/banner_0576_m.png"
+        ],
+        "column": 0,
+        "priority": 14,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 5 2022, 00:00",
+				end: "Jun 10 2022, 23:59",
+                markers: [
+                    {
+                        title: "Period 1",
+                        time: "Apr 30 2022, 15:59",
+                        type: "story"
+                    },
+                    {
+                        title: "Period 2",
+                        time: "May 15 2022, 15:59",
+                        type: "story"
+                    },
+                    {
+                        title: "Period 3",
+                        time: "May 31 2022, 15:59",
+                        type: "story"
+                    },
+                    {
+                        title: "Period 4",
+                        time: "Jun 10 2022, 23:59",
+                        type: "story"
+                    }
+                ]
+			}
+        ]
+    },
+
+    {
         "type": "Gacha",
         "title": [
 			"9th Anniversary μ's 1st Years"
