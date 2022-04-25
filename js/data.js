@@ -4,16 +4,34 @@ var nextAnniversary = "April 15 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
-	{
+    {
+        "type": "Event",
+        "title": [
+			"Round 31 MEDLEY FESTIVAL"
+        ],
+        "image": [
+            "imgs/event/mf31.png"
+        ],
+        "column": 0,
+        "priority": 2000,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 20 2022, 16:00",
+				end: "Apr 30 2022, 15:00"
+			}
+        ]
+    },
+    {
         "type": "Event",
         "title": [
 			"Rhythmic Carnival"
         ],
         "image": [
-            "imgs/0704/banner_0576_m.png"
+            "imgs/static/rc.png"
         ],
         "column": 0,
-        "priority": 14,
+        "priority": 500,
         "timers": [
 			{
 				name: "Main Event",
@@ -55,52 +73,16 @@ var timerData = [
 			}
         ]
     },
-    {
-        "type": "Event",
-        "title": [
-			"Round 31 MEDLEY FESTIVAL"
-        ],
-        "image": [
-            "imgs/0704/banner_0576_m.png"
-        ],
-        "column": 0,
-        "priority": 4,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 20 2022, 16:00",
-				end: "Apr 30 2022, 15:00"
-			}
-        ]
-    },
-	{
-        "type": "Event",
-        "title": [
-			"Code Geass Collab"
-        ],
-        "image": [
-            "imgs/0704/banner_0576_m.png"
-        ],
-        "column": 0,
-        "priority": 3,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 14 2022, 00:00",
-				end: "Apr 25 2022, 23:59"
-			}
-        ]
-    },
 	{
         "type": "Event",
         "title": [
 			"9th Anniversary Big Lottery"
         ],
         "image": [
-            "imgs/0704/banner_0576_m.png"
+            "imgs/event/lottery.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 1500,
         "timers": [
 			{
 				name: "Main Event",
@@ -137,15 +119,15 @@ var timerData = [
 			"9th Anniversary Music Festival"
         ],
         "image": [
-            "imgs/0704/banner_0576_m.png"
+            "imgs/event/music_festival.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 1000,
         "timers": [
             {
                 name: "Duration",
                 start: "Apr 5 2022, 16:00",
-				end: "Apr 25 2022, 14:59",
+				end: "Apr 30 2022, 23:59",
                 extraPriority: 100
             }
         ]
@@ -153,45 +135,266 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"9th Anniversary μ's 1st Years"
+			"9th Anniversary μ's 3rd Years"
         ],
         "image": [
-            "imgs/0503/gachabanner_0883_m.png",
-			"imgs/0503/gachabanner_0885_m.png",
-			"imgs/0503/gachabanner_0884_m.png",
-			"imgs/0503/gachabanner_0886_m.png",
-			"imgs/0503/gachabanner_0887_m.png",
-			"imgs/0503/gachabanner_0888_m.png"
+            "imgs/gacha/IMG_7939.png"
         ],
         "column": 1,
-        "priority": 3,
+        "priority": 5000,
         "timers": [
             {
-                name: "Duration",
-                start: "Apr 5 2022, 16:00",
-				end: "Apr 25 2022, 14:59",
+                name: "Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
                 extraPriority: 100
             }
         ]
     },
-	{
+
+    {
         "type": "Gacha",
         "title": [
-			"Code Geass Collab Gacha"
+			"SIF Pass Premium Only Pick-up Boost Scouting - μ's"
         ],
         "image": [
-            "imgs/0704/gachabanner_0918_m.png",
-			"imgs/0704/gachabanner_0919_m.png"
+            "imgs/gacha/IMG_7947.png"
         ],
         "column": 1,
         "priority": 10,
         "timers": [
             {
                 name: "Duration",
-                start: "Apr 8 2022, 16:00",
-				end: "Apr 25 2022, 23:59",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 23:59",
                 extraPriority: 100
             }
         ]
-    }
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Pre-Celebration SR+ Box Scouting - μ's"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7949.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 2 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 2 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 2 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Aqours 3rd Years"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7953.png"
+        ],
+        "column": 1,
+        "priority": 4000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Celebration Scouting - Aqours"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7956.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 28 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Medal Special 2nd Years Limited Scouting - μ's"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7943.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 25 2022, 16:00",
+				end: "May 14 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Celebration Box Scouting - Nijigasaki"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7962.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Celebration Box Scouting - Liella"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7965.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 25 2022, 16:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Pre-Celebration Extra Support Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7945.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 25 2022, 16:00",
+				end: "May 14 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Medal Special 2nd Years Limited Scouting - Aqours"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7957.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 25 2022, 16:00",
+				end: "May 14 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+
+
+
+
 ];
