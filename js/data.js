@@ -73,7 +73,33 @@ var timerData = [
 			}
         ]
     },
-	{
+
+    {
+        "type": "Event",
+        "title": [
+			"9th Anniversary Live Support"
+        ],
+        "image": [
+            "imgs/static/live_support.png"
+        ],
+        "column": 0,
+        "priority": 1200,
+        "timers": [
+			{
+				name: "10x EXP",
+				start: "Apr 15 2022, 16:00",
+				end: "Apr 28 2022, 23:59"
+			},
+			{
+				name: "Goals",
+				start: "Apr 15 2022, 16:00",
+				end: "May 15 2022, 14:59"
+			}
+        ]
+    },
+
+
+    {
         "type": "Event",
         "title": [
 			"9th Anniversary Big Lottery"
