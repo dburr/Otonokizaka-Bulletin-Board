@@ -32,10 +32,10 @@ timearrays.append([y + " 17:00:00", y + " 19:00:00"])
 timearrays.append([y + " 21:00:00", y + " 23:00:00"])
 
 print("""
-	{
+    {
         "type": "Event",
         "title": [
-			"Rhythmic Carnival"
+            "Rhythmic Carnival"
         ],
         "image": [
             "imgs/0704/banner_0576_m.png"
@@ -43,55 +43,44 @@ print("""
         "column": 0,
         "priority": 14,
         "timers": [
-			{
-				name: "Main Event",
-				start: "%s, 16:00",
-				end: "%s, 14:59",
-				extraPriority: 100,
-				markers: [
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 12:00",
-					type: "story"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 17:00",
-					type: "story"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 21:00",
-					type: "story"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 12:00",
-					type: "story"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 17:00",
-					type: "story"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "%s, 21:00",
-					type: "story"
-				}
-				]
-			}
+            {
+                name: "Main Event",
+                start: "%s, 16:00",
+                end: "%s, 14:59",
+                extraPriority: 100,
+                markers: [
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 12:00",
+                        type: "story"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 17:00",
+                        type: "story"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 21:00",
+                        type: "story"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 12:00",
+                        type: "story"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 17:00",
+                        type: "story"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "%s, 21:00",
+                        type: "story"
+                    }
+               ]
+            }
         ]
     },
 """ % (fri, mon, sat, sat, sat, sun, sun, sun))
-           # 12-2, 5-7, 9-11 PM JST, only on weekend.
-
-# for a in timearrays:
-#   t1sh = tokyo.localize(datetime.strptime(a[0], "%Y-%m-%d %H:%M:%S")) #.replace(tzinfo=tokyo)
-#   t1eh = tokyo.localize(datetime.strptime(a[1], "%Y-%m-%d %H:%M:%S")) #.replace(tzinfo=tokyo)
-#   # print(t1sh)
-#   # print(t1eh)
-#   t1st = int(t1sh.timestamp())
-#   t1et = int(t1eh.timestamp())
-#   print("<t:%d:f> - <t:%d:f>" % (t1st, t1et))
-#   #datetime.strptime('2013-05-27', '%Y-%m-%d') # Monday
