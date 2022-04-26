@@ -38,10 +38,10 @@ print("""
             "Rhythmic Carnival"
         ],
         "image": [
-            "imgs/0704/banner_0576_m.png"
+            "imgs/static/rcfixed.png"
         ],
         "column": 0,
-        "priority": 14,
+        "priority": 500,
         "timers": [
             {
                 name: "Main Event",
@@ -52,32 +52,32 @@ print("""
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 12:00",
-                        type: "story"
+                        type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 17:00",
-                        type: "story"
+                        type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 21:00",
-                        type: "story"
+                        type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 12:00",
-                        type: "story"
+                        type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 17:00",
-                        type: "story"
+                        type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
                         time: "%s, 21:00",
-                        type: "story"
+                        type: "star"
                     }
                ]
             }
