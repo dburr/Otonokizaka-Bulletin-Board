@@ -212,6 +212,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+			"9th Anniversary Celebration Scouting - μ's"
+        ],
+        "image": [
+            "imgs/gacha/IMG_7990.png"
+        ],
+        "column": 1,
+        "priority": 105,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 25 2022, 16:00",
+				end: "Apr 28 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    {
+        "type": "Gacha",
+        "title": [
 			"SIF Pass Premium Only Pick-up Boost Scouting - μ's"
         ],
         "image": [
@@ -441,24 +461,141 @@ var timerData = [
 	{
 		type: "Other",
 		title: [
-    		"Test Pack"
+    		"9th Anniversary Deluxe Love Gem Pack (Part 3)"
 		],
 		image: [
-            "imgs/1604/banner_0583_m.png"
+            "imgs/packs/img_7991.png"
         ],
 		column: 2,
-		priority: 3,
+		priority: 1,
 		timers: [ 
 		{
 			name: "Sales period",
-			start: "Apr 18 2022, 17:00",
-			end: "Apr 28 2022, 14:59",
+			start: "Apr 25 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
 			extraPriority: 100
 		}
 		]
 	},
 
+	{
+		type: "Other",
+		title: [
+    		"9th Anniversary Love Gem Pack (Part 3)"
+		],
+		image: [
+            "imgs/packs/img_7993.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 25 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
 
+	{
+		type: "Other",
+		title: [
+    		"9th Anniversary Love Gem Mini Pack (Part 3)"
+		],
+		image: [
+            "imgs/packs/img_7996.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 25 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
 
+	{
+		type: "Other",
+		title: [
+    		"9th Anniversary Premium Pack - μ's"
+		],
+		image: [
+            "imgs/packs/img_7998.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 15 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
+
+	{
+		type: "Other",
+		title: [
+    		"9th Anniversary Special Pack - μ's"
+		],
+		image: [
+            "imgs/packs/img_8001.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 15 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
+
+	{
+		type: "Other",
+		title: [
+    		"9th Anniversary Mini Pack - μ's"
+		],
+		image: [
+            "imgs/packs/img_8003.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 15 2022, 16:00",
+			end: "Apr 30 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
+
+	{
+		type: "Other",
+		title: [
+    		"SIF Honor Student Pack - Liella!"
+		],
+		image: [
+            "imgs/packs/img_8005.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 10 2022, 00:00",
+			end: "May 9 2022, 23:59",
+			extraPriority: 100
+		}
+		]
+	},
 
 ];
