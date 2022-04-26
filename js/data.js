@@ -438,6 +438,25 @@ var timerData = [
         ]
     },
 
+	{
+		type: "Other",
+		title: [
+    		"Test Pack"
+		],
+		image: [
+            "imgs/1604/banner_0583_m.png"
+        ],
+		column: 2,
+		priority: 3,
+		timers: [ 
+		{
+			name: "Sales period",
+			start: "Apr 18 2022, 17:00",
+			end: "Apr 28 2022, 14:59",
+			extraPriority: 100
+		}
+		]
+	},
 
 
 
