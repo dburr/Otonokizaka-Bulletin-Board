@@ -42,32 +42,32 @@ var timerData = [
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "Apr 30 2022, 12:00",
-					type: "story"
+					type: "star"
 				},
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "Apr 30 2022, 17:00",
-					type: "story"
+					type: "star"
 				},
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "Apr 30 2022, 21:00",
-					type: "story"
+					type: "star"
 				},
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "May 01 2022, 12:00",
-					type: "story"
+					type: "star"
 				},
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "May 01 2022, 17:00",
-					type: "story"
+					type: "star"
 				},
 				{
 					title: "5x EXP (for 2 hours)",
 					time: "May 01 2022, 21:00",
-					type: "story"
+					type: "star"
 				}
 				]
 			}
@@ -137,22 +137,22 @@ var timerData = [
                     {
                         title: "Period 1",
                         time: "Apr 5 2022, 00:00",
-                        type: "story"
+                        type: "mission"
                     },
                     {
                         title: "Period 2",
                         time: "Apr 30 2022, 16:00",
-                        type: "story"
+                        type: "mission"
                     },
                     {
                         title: "Period 3",
                         time: "May 15 2022, 16:00",
-                        type: "story"
+                        type: "mission"
                     },
                     {
                         title: "Period 4",
                         time: "May 31 2022, 16:00",
-                        type: "story"
+                        type: "mission"
                     }
                 ]
 			}
