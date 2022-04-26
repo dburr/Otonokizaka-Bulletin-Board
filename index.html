@@ -70,7 +70,10 @@
 				
 			</div>
 
-			
+			<div>
+				Jump to: <A HREF="#quest">Events</A> * <A HREF="#gacha">Gacha</A> * <A HREF="#shop">Packs</A>
+			</div>
+
 			<div class="btn-group btn-group-toggle time-buttons fixed">
 				<label class="btn btn-primary btn-sm" :class="{active: currentZone == 'japan' }" id="japan-time">
 					<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone" > <h5>Use Server Time</h5>
@@ -94,9 +97,9 @@
 		</div>
 		<script type="text/javascript" src="js/app.js"></script>
 		<script type="text/javascript">
-			document.getElementsByClassName("c-header")[0].innerHTML='<img src="imgs/global_quest.png"/> Events'
-			document.getElementsByClassName("c-header")[1].innerHTML='<img src="imgs/global_gacha.png"/> Gacha'
-			document.getElementsByClassName("c-header")[2].innerHTML='<img src="imgs/global_shop.gif"/> Packs'
+			document.getElementsByClassName("c-header")[0].innerHTML='<a id="quest"><img src="imgs/global_quest.png"/> Events'
+			document.getElementsByClassName("c-header")[1].innerHTML='<a id="gacha"><img src="imgs/global_gacha.png"/> Gacha'
+			document.getElementsByClassName("c-header")[2].innerHTML='<a id="shop"><img src="imgs/global_shop.gif"/> Packs'
 			
 			//document.getElementById("days");
 		</script>
