@@ -77,6 +77,25 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+			"Live Arena"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 100,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 30 2022, 16:00",
+				end: "May 25 2022, 14:59"
+			}
+        ]
+    },
+
+    {
+        "type": "Event",
+        "title": [
 			"9th Anniversary Live Support"
         ],
         "image": [
