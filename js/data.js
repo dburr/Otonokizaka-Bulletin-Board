@@ -28,7 +28,7 @@ var timerData = [
 			"Rhythmic Carnival"
         ],
         "image": [
-            "imgs/static/rc.png"
+            "imgs/static/rcfixed.png"
         ],
         "column": 0,
         "priority": 500,
@@ -99,7 +99,7 @@ var timerData = [
 			"9th Anniversary Live Support"
         ],
         "image": [
-            "imgs/static/live_support.png"
+            "imgs/static/live_arena.png"
         ],
         "column": 0,
         "priority": 1200,
