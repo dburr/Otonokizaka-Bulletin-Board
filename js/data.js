@@ -584,7 +584,7 @@ var timerData = [
     		"SIF Honor Student Pack - Liella!"
 		],
 		image: [
-            "imgs/packs/img_8005.png"
+            "imgs/static/packs/monthly_liella.png"
         ],
 		column: 2,
 		priority: 1,
