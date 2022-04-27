@@ -73,7 +73,6 @@ var timerData = [
 			}
         ]
     },
-
     {
         "type": "Event",
         "title": [
@@ -92,7 +91,6 @@ var timerData = [
 			}
         ]
     },
-
     {
         "type": "Event",
         "title": [
@@ -116,8 +114,6 @@ var timerData = [
 			}
         ]
     },
-
-
     {
         "type": "Event",
         "title": [
@@ -208,7 +204,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -228,7 +223,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -248,7 +242,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -280,7 +273,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -312,7 +304,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -332,8 +323,6 @@ var timerData = [
             }
         ]
     },
-
-
     {
         "type": "Gacha",
         "title": [
@@ -353,7 +342,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -385,7 +373,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -417,7 +404,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -437,7 +423,6 @@ var timerData = [
             }
         ]
     },
-
     {
         "type": "Gacha",
         "title": [
@@ -457,7 +442,6 @@ var timerData = [
             }
         ]
     },
-
 	{
 		type: "Other",
 		title: [
@@ -469,15 +453,14 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 25 2022, 16:00",
-			end: "Apr 30 2022, 14:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 25 2022, 16:00",
+                end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -489,15 +472,14 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 25 2022, 16:00",
-			end: "Apr 30 2022, 14:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 25 2022, 16:00",
+                end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -509,15 +491,14 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 25 2022, 16:00",
-			end: "Apr 30 2022, 14:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 25 2022, 16:00",
+                end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -529,15 +510,14 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 15 2022, 16:00",
-			end: "Apr 30 2022, 14:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 15 2022, 16:00",
+                end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -549,15 +529,14 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 15 2022, 16:00",
-			end: "Apr 30 2022, 14:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 15 2022, 16:00",
+                end: "Apr 30 2022, 14:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -577,7 +556,6 @@ var timerData = [
 		}
 		]
 	},
-
 	{
 		type: "Other",
 		title: [
@@ -589,13 +567,12 @@ var timerData = [
 		column: 2,
 		priority: 1,
 		timers: [ 
-		{
-			name: "Sales period",
-			start: "Apr 10 2022, 00:00",
-			end: "May 9 2022, 23:59",
-			extraPriority: 100
-		}
+            {
+                name: "Sales period",
+                start: "Apr 10 2022, 00:00",
+                end: "May 9 2022, 23:59",
+                extraPriority: 100
+            }
 		]
 	},
-
 ];
