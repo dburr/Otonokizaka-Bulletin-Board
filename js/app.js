@@ -27,6 +27,57 @@ var elementsMap = {
     Alchemist: "imgs/Class_Alchemist.png"
 };
 
+var bdays = [
+    // μ's
+    {name: "Hanayo", bday: "Jan 17"},
+    {name: "Umi", bday: "Mar 15"},
+    {name: "Maki", bday: "Apr 19"},
+    {name: "Nozomi", bday: "Jun 9"},
+    {name: "Nico", bday: "Jul 22"},
+    {name: "Honoka", bday: "Aug 3"},
+    {name: "Kotori", bday: "Sep 12"},
+    {name: "Eli", bday: "Oct 21"},
+    {name: "Rin", bday: "Nov 1"},
+
+    // Aqours
+    {name: "Dia", bday: "Jan 1"},
+    {name: "Kanan", bday: "Feb 10"},
+    {name: "Hanamaru", bday: "Mar 4"},
+    {name: "You", bday: "Apr 17"},
+    {name: "Mari", bday: "Jun 13"},
+    {name: "Yohane", bday: "Jul 13"},
+    {name: "Chika", bday: "Aug 1"},
+    {name: "Riko", bday: "Sep 19"},
+    {name: "Ruby", bday: "Sep 21"},
+
+    // Nijigasaki
+    {name: "Kasumi", bday: "Jan 23"},
+    {name: "Emma", bday: "Feb 5"},
+    {name: "Lanzhu", bday: "Feb 15"},
+    {name: "Ayumu", bday: "Mar 1"},
+    {name: "Shizuku", bday: "Apr 3"},
+    {name: "Ai", bday: "May 30"},
+    {name: "Karin", bday: "Jun 29"},
+    {name: "Setsuna", bday: "Aug 8"},
+    {name: "Shioriko", bday: "Oct 5"},
+    {name: "Rina", bday: "Nov 13"},
+    {name: "Mia", bday: "Dec 6"},
+    {name: "Kanata", bday: "Dec 16"},
+
+    // Liella (commented out because we don't have liella birthdays in game... yet...)
+    /*
+    {name: "Chisato", bday: "Feb 25"},
+    {name: "Kanon", bday: "May 1"},
+    {name: "Keke", bday: "Jul 17"},
+    {name: "Sumire", bday: "Sep 28"},
+    {name: "Ren", bday: "Nov 24"},
+    {name: "Girl #6", bday: "May 30"},
+    {name: "Girl #7", bday: "May 30"},
+    {name: "Girl #8", bday: "May 30"},
+    {name: "Girl #9", bday: "May 30"},
+    */
+]
+
 Vue.filter('addStars', function (str) {
     return str.replace(/3\*/g, "3★").replace(/4\*/g, "4★").replace(/5\*/g, "5★");
 });
@@ -71,7 +122,9 @@ var vm = new Vue({
         alertTypes: alertTypes,
         d_since_release:0,
         t_to_next_ann:[0,0,0],
-        t_to_anniv:[0,0,0]
+        t_to_anniv:[0,0,0],
+        bday_girl: "SomeGirl",
+        bday_days: 42
     },
     methods: {
         changeTimezone: function() {
@@ -371,6 +424,7 @@ var vm = new Vue({
             this.localTime = moment().format("ddd D MMM, H:mm");
             this.updateTimerData();
             this.updateTextTimers();
+            this.updateBday();
         },
         updateTextTimers:function() {
             let nowMoment = moment.tz("Asia/Tokyo");
@@ -378,7 +432,22 @@ var vm = new Vue({
             this.d_since_release = nowMoment.diff(release,"days");
             this.t_to_next_ann = nextAnnounc.diff(nowMoment,"seconds");
             this.t_to_anniv = nextAnniv.diff(nowMoment,"seconds") ;
-
+        },
+        // yeah this could probably be done better, but It Works(tm)
+        updateBday:function() {
+            let nowMoment = moment.tz("Asia/Tokyo");
+            let closestBdayName = "SomeGirl";
+            let closestBdayDays = 99999;
+            for (var i = 0; i < bdays.length; i++) {
+                var bdayDate = moment.tz(bdays[i].bday, "MMM D", "Asia/Tokyo");
+                var daysToBday = bdayDate.diff(nowMoment, "days");
+                if (daysToBday >= 0 && daysToBday < closestBdayDays) {
+                    closestBdayDays = daysToBday;
+                    closestBdayName = bdays[i].name;
+                }
+            }
+            this.bday_girl = closestBdayName;
+            this.bday_days = closestBdayDays;
         },
 
         updateTimerData: function() {
