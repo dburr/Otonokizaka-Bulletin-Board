@@ -464,7 +464,7 @@ var timerData = [
     		"9th Anniversary Deluxe Love Gem Pack (Part 3)"
 		],
 		image: [
-            "imgs/packs/img_7991.png"
+            "imgs/packs/img_8007.png"
         ],
 		column: 2,
 		priority: 1,
