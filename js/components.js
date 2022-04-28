@@ -3,7 +3,7 @@ Vue.component("text-timer", {
     template: 
     `<h4>
         <span class="timer-number">{{ d_since_release }}</span> days since <span >School Idol Festival</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 10th anniversary.</span></br>
-        <span>Next birthday is <span class="timer-number">{{ bday_girl }}'s</span> in <span class="timer-number">{{ bday_days }} days</span>.</span><br />
+        <span>Next birthday is <span class="timer-number">{{ bday_girl }}'s</span> which is <span class="timer-number">{{ bday_days }}</span></span><br />
         <span v-if="nextEvVisible()">Next event announcement expected in <span v-html="tNext(t_to_next_ann)"></span>.<br /></span></br>
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  

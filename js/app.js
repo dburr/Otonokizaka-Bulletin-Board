@@ -448,7 +448,11 @@ var vm = new Vue({
                 }
             }
             this.bday_girl = closestBdayName;
-            this.bday_days = closestBdayDays;
+            if (closestBdayDays == 0) {
+                this.bday_days = "today!";
+            } else {
+                this.bday_days = "in " + closestBdayDays + " days.";
+            }
         },
 
         updateTimerData: function() {
