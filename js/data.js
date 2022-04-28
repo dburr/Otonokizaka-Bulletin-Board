@@ -4,6 +4,10 @@ var nextAnniversary = "April 15 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
+    // *** Events ***
+
+    // Round 31 MEDLEY FESTIVAL
+    // 4/20 16:00 - 4/30 15:00
     {
         "type": "Event",
         "title": [
@@ -22,6 +26,28 @@ var timerData = [
 			}
         ]
     },
+
+    // 9th Anniversary 3rd Live Setlist - μ's & Aqours
+    {
+        "type": "Event",
+        "title": [
+			"9th Anniversary 3rd Live Setlist - μ's & Aqours"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 1500,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "Apr 30 2022, 16:00",
+				end: "May 5 2022, 14:59"
+			}
+        ]
+    },
+
+    // Rhythmic Carnival
     {
         "type": "Event",
         "title": [
@@ -73,6 +99,8 @@ var timerData = [
 			}
         ]
     },
+
+    // Live Arena
     {
         "type": "Event",
         "title": [
@@ -91,6 +119,8 @@ var timerData = [
 			}
         ]
     },
+
+    // 9th Anniversary Live Support
     {
         "type": "Event",
         "title": [
@@ -114,6 +144,33 @@ var timerData = [
 			}
         ]
     },
+
+    // 9th Anniversary Celebration Golden Week Login Bonus
+    {
+        "type": "Event",
+        "title": [
+			"9th Anniversary Celebration Golden Week Login Bonus"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 1200,
+        "timers": [
+			{
+				name: "Part 1",
+				start: "Apr 29 2022, 00:00",
+				end: "May 3, 23:59, 23:59"
+			},
+			{
+				name: "Part 2",
+				start: "May 4 2022, 00:00",
+				end: "May 8 2022, 23:59"
+			}
+        ]
+    },
+
+    // 9th Anniversary Big Lottery
     {
         "type": "Event",
         "title": [
@@ -154,7 +211,9 @@ var timerData = [
 			}
         ]
     },
-	{
+
+    // 9th Anniversary Music Festival
+    {
         "type": "Event",
         "title": [
 			"9th Anniversary Music Festival"
@@ -168,11 +227,402 @@ var timerData = [
             {
                 name: "Duration",
                 start: "Apr 5 2022, 16:00",
-				end: "Apr 30 2022, 23:59",
+				end: "May 15 2022, 15:59",
+                extraPriority: 100,
+                markers: [
+                    {
+                        title: "Part 1",
+                        time: "Apr 5 2022, 16:00",
+                        type: "mission"
+                    },
+                    {
+                        title: "Part 2",
+                        time: "Apr 30 2022, 16:00",
+                        type: "mission"
+                    },
+                ]
+            }
+        ],
+    },
+
+    // Twitter Post Campaign
+	{
+        "type": "Event",
+        "title": [
+			"Twitter Post Campaign"
+        ],
+        "image": [
+            "imgs/event/music_festival.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Apr 15 2022, 16:00",
+				end: "May 14 2022, 23:59",
+                extraPriority: 100,
+                markers: [
+                    {
+                        title: "Part 1",
+                        time: "Apr 15 2022, 16:00",
+                        type: "mission"
+                    },
+                    {
+                        title: "Part 2",
+                        time: "Apr 29 2022, 00:00",
+                        type: "mission"
+                    },
+                    {
+                        title: "Part 3",
+                        time: "May 6 2022, 00:00",
+                        type: "mission"
+                    },
+                ]
+            }
+        ],
+    },
+
+    // *** Gacha ***
+
+    // DONE
+    // 9th Anniversary Celebration GW Scouting: μ's
+    {
+        "type": "Gacha",
+        "title": [
+			"9th Anniversary Celebration GW Scouting: μ's"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_OpX9G6N0xr.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
                 extraPriority: 100
             }
         ]
     },
+
+    // DONE
+    // 9th Anniversary Celebration GW Scouting: Aqours
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Celebration GW Scouting: Aqours"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_LjALa64w0l.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 2nd Years Limited Box Scouting: μ's
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 2nd Years Limited Box Scouting: μ's"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_20pUSca3bE.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 2nd Years Limited Box Scouting: Aqours
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 2nd Years Limited Box Scouting: Aqours"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_EvWHd6CUVJ.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 9 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 1st Years Limited Box Scouting: μ's
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 1st Years Limited Box Scouting: μ's"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_02_o1A7cN6rnp.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 1st Years Limited Box Scouting: Aqours
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 1st Years Limited Box Scouting: Aqours"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_05_Rm582fccx2.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 2 2022, 00:00",
+				end: "May 12 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 3rd Years Limited Box Scouting: μ's
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 3rd Years Limited Box Scouting: μ's"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_05_iwuQF6wqLN.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // GW! 3rd Years Limited Box Scouting: Aqours
+    {
+        "type": "Gacha",
+        "title": [
+			"GW! 3rd Years Limited Box Scouting: Aqours"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_05_UQRP5Tj562.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 5 2022, 00:00",
+				end: "May 15 2022, 14:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+
+    // DONE
+    // Golden Week Box Scouting: Nijigasaki
+    {
+        "type": "Gacha",
+        "title": [
+			"Golden Week Box Scouting: Nijigasaki"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_OpX9G6N0xr.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // DONE
+    // Golden Week Box Scouting: Liella!
+    // From 0:00 on 4/29 until 23:59 on 5/25 JST.
+    {
+        "type": "Gacha",
+        "title": [
+			"Golden Week Box Scouting: Liella!"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2204_29_Jqp2jsrwcU.png"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // ***********
+
     {
         "type": "Gacha",
         "title": [
@@ -442,6 +892,34 @@ var timerData = [
             }
         ]
     },
+
+    // news_2204_29_4D6VDD3qUz
+    // 9th Anniversary! GW Special Pack
+    // From 0:00 on 4/29 until 23:59 on 5/8 JST.
+    // 9th Anniversary! GW Pack
+    // From 0:00 on 4/29 until 23:59 on 5/8 JST.
+    // 9th Anniversary! GW Mini Pack
+    // From 0:00 on 4/29 until 23:59 on 5/8 JST.
+
+    // news_2204_30_oilV4klCgD
+    // 9th Anniversary! Deluxe Love Gem Pack Part 4
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+    // 9th Anniversary! Love Gem Pack Part 4
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+    // 9th Anniversary! Love Gem Mini Pack Part 4
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+
+    // news_2204_30_9iF5dfb9vz
+    // 9th Anniversary! Premium Pack Aqours
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+
+
+    // news_2204_30_itJiFCu1zC
+    // 9th Anniversary! Special Pack Aqours
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+    // 9th Anniversary! Mini Pack Aqours
+    // From 16:00 on 4/30 until 14:59 on 5/15 JST.
+
 	{
 		type: "Other",
 		title: [
