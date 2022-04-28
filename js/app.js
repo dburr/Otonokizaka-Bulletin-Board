@@ -28,6 +28,7 @@ var elementsMap = {
 };
 
 var bdays = [
+    // {name: "TestGirl", bday: "Apr 28"},
     // μ's
     {name: "Hanayo", bday: "Jan 17"},
     {name: "Umi", bday: "Mar 15"},
@@ -67,14 +68,14 @@ var bdays = [
     // Liella (commented out because we don't have liella birthdays in game... yet...)
     /*
     {name: "Chisato", bday: "Feb 25"},
+    {name: "Kinako", bday: "Apr 10"},
     {name: "Kanon", bday: "May 1"},
+    {name: "Shiki", bday: "Jun 17"},
     {name: "Keke", bday: "Jul 17"},
+    {name: "Natsumi", bday: "Aug 13"},
     {name: "Sumire", bday: "Sep 28"},
-    {name: "Ren", bday: "Nov 24"},
-    {name: "Girl #6", bday: "May 30"},
-    {name: "Girl #7", bday: "May 30"},
-    {name: "Girl #8", bday: "May 30"},
-    {name: "Girl #9", bday: "May 30"},
+    {name: "Mei", bday: "Oct 29"},
+    {name: "Ren", bday: "Nov 24"}
     */
 ]
 
