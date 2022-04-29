@@ -57,13 +57,12 @@ var timerData = [
             "imgs/static/rcfixed.png"
         ],
         "column": 0,
-        "priority": 500,
+        "priority": 1400,
         "timers": [
 			{
 				name: "Main Event",
 				start: "Apr 29 2022, 16:00",
 				end: "May 2 2022, 14:59",
-				extraPriority: 100,
 				markers: [
 				{
 					title: "5x EXP (for 2 hours)",
@@ -110,7 +109,7 @@ var timerData = [
             "imgs/static/live_arena.png"
         ],
         "column": 0,
-        "priority": 100,
+        "priority": 1500,
         "timers": [
 			{
 				name: "Main Event",
@@ -130,7 +129,7 @@ var timerData = [
             "imgs/static/live_arena.png"
         ],
         "column": 0,
-        "priority": 1200,
+        "priority": 500,
         "timers": [
 			{
 				name: "10x EXP",
@@ -155,7 +154,7 @@ var timerData = [
             "imgs/static/live_arena.png"
         ],
         "column": 0,
-        "priority": 1200,
+        "priority": 500,
         "timers": [
 			{
 				name: "Duration",
@@ -187,7 +186,7 @@ var timerData = [
             "imgs/event/lottery.png"
         ],
         "column": 0,
-        "priority": 1500,
+        "priority": 1400,
         "timers": [
 			{
 				name: "Main Event",
@@ -229,7 +228,7 @@ var timerData = [
             "imgs/event/music_festival.png"
         ],
         "column": 0,
-        "priority": 1000,
+        "priority": 1300,
         "timers": [
             {
                 name: "Duration",
