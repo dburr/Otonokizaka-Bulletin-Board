@@ -158,15 +158,22 @@ var timerData = [
         "priority": 1200,
         "timers": [
 			{
-				name: "Part 1",
+				name: "Duration",
 				start: "Apr 29 2022, 00:00",
-				end: "May 3 2022, 23:59, 23:59"
-			},
-			{
-				name: "Part 2",
-				start: "May 4 2022, 00:00",
-				end: "May 8 2022, 23:59"
-			}
+				end: "May 8 2022, 23:59",
+				markers: [
+                    {
+                        title: "Part 1",
+                        time: "Apr 29 2022, 00:00",
+                        type: "star"
+                    },
+                    {
+                        title: "Part 2",
+                        time: "May 4 2022, 00:00",
+                        type: "star"
+                    }
+                ]
+            }
         ]
     },
 
