@@ -11,7 +11,8 @@ tsat = timedelta((12 - d.weekday()) % 7)
 dt_fri = d + tfri
 dt_sat = d + tsat
 dt_sun = dt_sat + timedelta(days=1)
-dt_mon = d + timedelta(days=5)
+dt_mon = dt_sun + timedelta(days=1)
+#dt_mon = d + timedelta(days=5)
 fri = dt_fri.strftime("%b %d %Y")
 sat = dt_sat.strftime("%b %d %Y")
 sun = dt_sun.strftime("%b %d %Y")
@@ -41,13 +42,12 @@ print("""
             "imgs/static/rcfixed.png"
         ],
         "column": 0,
-        "priority": 500,
+        "priority": 1400,
         "timers": [
             {
                 name: "Main Event",
                 start: "%s, 16:00",
                 end: "%s, 14:59",
-                extraPriority: 100,
                 markers: [
                     {
                         title: "5x EXP (for 2 hours)",
