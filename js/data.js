@@ -51,7 +51,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"Rhythmic Carnival"
+            "Rhythmic Carnival"
         ],
         "image": [
             "imgs/static/rcfixed.png"
@@ -59,43 +59,43 @@ var timerData = [
         "column": 0,
         "priority": 1400,
         "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 29 2022, 16:00",
-				end: "May 2 2022, 14:59",
-				markers: [
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "Apr 30 2022, 12:00",
-					type: "star"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "Apr 30 2022, 17:00",
-					type: "star"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "Apr 30 2022, 21:00",
-					type: "star"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "May 01 2022, 12:00",
-					type: "star"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "May 01 2022, 17:00",
-					type: "star"
-				},
-				{
-					title: "5x EXP (for 2 hours)",
-					time: "May 01 2022, 21:00",
-					type: "star"
-				}
-				]
-			}
+            {
+                name: "Main Event",
+                start: "May 06 2022, 16:00",
+                end: "May 09 2022, 14:59",
+                markers: [
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 07 2022, 12:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 07 2022, 17:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 07 2022, 21:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 08 2022, 12:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 08 2022, 17:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 08 2022, 21:00",
+                        type: "star"
+                    }
+               ]
+            }
         ]
     },
 
