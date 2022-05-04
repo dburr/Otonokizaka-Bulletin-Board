@@ -1,9 +1,18 @@
 var releaseDate = "April 15 2013, 0:00";
-var possibleNextAnnouncementDate = "May 4 2022, 15:00";
+var possibleNextAnnouncementDate = "May 19 2022, 15:00";
 var nextAnniversary = "April 15 2023, 0:00";
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
+    // Items are sorted in descending priority level order (e.g. priority 2000 goes above priority 1000)
+    // All items in the same priority level appear in the order that they appear in the list
+    //
+    // Suggested priority levels:
+    // main events - 2000
+    // sub events (RC, LA, setlist) - 1500
+    // lotteries, contests, blades, etc. - 1000
+    // login bonuses, support campaigns, etc. - 500
+
     // *** Events ***
 
     // Round 26 COMPANION MATCH
@@ -186,7 +195,7 @@ var timerData = [
             "imgs/event/lottery.png"
         ],
         "column": 0,
-        "priority": 1400,
+        "priority": 1000,
         "timers": [
 			{
 				name: "Main Event",
@@ -228,7 +237,7 @@ var timerData = [
             "imgs/event/music_festival.png"
         ],
         "column": 0,
-        "priority": 1300,
+        "priority": 1000,
         "timers": [
             {
                 name: "Duration",
@@ -261,7 +270,7 @@ var timerData = [
             "imgs/event/music_festival.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 500,
         "timers": [
             {
                 name: "Duration",
