@@ -5,7 +5,7 @@ var alertMessages = [];
 var alertTypes = [];
 var timerData = [
     // Items are sorted in descending priority level order (e.g. priority 2000 goes above priority 1000)
-    // All items in the same priority level appear in the order that they appear in the list
+    // Items that have the same priority level appear in the order that they appear in the list
     //
     // Suggested priority levels:
     // main events - 2000
