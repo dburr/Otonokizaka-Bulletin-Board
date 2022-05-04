@@ -2,6 +2,8 @@
 # 12-2, 5-7, 9-11 PM JST, only on weekend.
 # <t:1649473200:f> - <t:1649480400:f>
 from datetime import datetime, timedelta
+import os
+import tempfile
 import pytz
 tokyo = pytz.timezone('Asia/Tokyo')
 
@@ -17,23 +19,22 @@ fri = dt_fri.strftime("%b %d %Y")
 sat = dt_sat.strftime("%b %d %Y")
 sun = dt_sun.strftime("%b %d %Y")
 mon = dt_mon.strftime("%b %d %Y")
-x = dt_sat.strftime('%Y-%m-%d')
-y = dt_sun.strftime('%Y-%m-%d')
+# x = dt_sat.strftime('%Y-%m-%d')
+# y = dt_sun.strftime('%Y-%m-%d')
 
 # print(fri)
 # print(x)
 # print(y)
 
-timearrays = []
-timearrays.append([x + " 12:00:00", x + " 14:00:00"])
-timearrays.append([x + " 17:00:00", x + " 19:00:00"])
-timearrays.append([x + " 21:00:00", x + " 23:00:00"])
-timearrays.append([y + " 12:00:00", y + " 14:00:00"])
-timearrays.append([y + " 17:00:00", y + " 19:00:00"])
-timearrays.append([y + " 21:00:00", y + " 23:00:00"])
+# timearrays = []
+# timearrays.append([x + " 12:00:00", x + " 14:00:00"])
+# timearrays.append([x + " 17:00:00", x + " 19:00:00"])
+# timearrays.append([x + " 21:00:00", x + " 23:00:00"])
+# timearrays.append([y + " 12:00:00", y + " 14:00:00"])
+# timearrays.append([y + " 17:00:00", y + " 19:00:00"])
+# timearrays.append([y + " 21:00:00", y + " 23:00:00"])
 
-print("""
-    {
+outstr = """    {
         "type": "Event",
         "title": [
             "Rhythmic Carnival"
@@ -42,7 +43,7 @@ print("""
             "imgs/static/rcfixed.png"
         ],
         "column": 0,
-        "priority": 1400,
+        "priority": 1500,
         "timers": [
             {
                 name: "Main Event",
@@ -83,4 +84,16 @@ print("""
             }
         ]
     },
-""" % (fri, mon, sat, sat, sat, sun, sun, sun))
+"""
+
+EDITOR = None
+if "EDITOR" in os.environ:
+  EDITOR = os.environ.get("EDITOR")
+else:
+  EDITOR = "vi"
+
+with tempfile.TemporaryDirectory() as tmp:
+  path = os.path.join(tmp, 'rctimes')
+  with open(path, "w") as f:
+    f.write(outstr)
+  os.execvp(EDITOR, [EDITOR, path])
