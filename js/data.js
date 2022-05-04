@@ -6,23 +6,23 @@ var alertTypes = [];
 var timerData = [
     // *** Events ***
 
-    // Round 31 MEDLEY FESTIVAL
-    // 4/20 16:00 - 4/30 15:00
+    // Round 26 COMPANION MATCH
+    // 5/5 16:00 - 5/15 15:00
     {
         "type": "Event",
         "title": [
-			"Round 31 MEDLEY FESTIVAL"
+			"Round 26 COMPANION MATCH"
         ],
         "image": [
-            "imgs/event/mf31.png"
+            "imgs/event/cm26.png"
         ],
         "column": 0,
         "priority": 2000,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Apr 20 2022, 16:00",
-				end: "Apr 30 2022, 15:00"
+				start: "May 5 2022, 16:00",
+				end: "May 15 2022, 15:00"
 			}
         ]
     },
