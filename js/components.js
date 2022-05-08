@@ -6,7 +6,7 @@ Vue.component("text-timer", {
 
         <span>Next birthday is <span class="timer-number">{{ bday_girl }}'s</span> which is <span class="timer-number">{{ bday_days }}</span></span><br />
 
-        <span v-if="nextEvVisible()">Next event announcement expected in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
+        <span v-if="nextEvVisible()">Next regular event announcement expected in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
         <span v-if="updateVisible()">App Update Available! Version <span class="timer-number">{{ version_update_available }}</span> is available and <span class="timer-number">{{ t_to_mandatory_update }}</span>.</span><br />
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
