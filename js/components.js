@@ -1,10 +1,13 @@
 Vue.component("text-timer", {
-    props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv", "bday_girl", "bday_days"],
+    props: ["d_since_release", "t_to_next_ann", "t_to_next_anniv", "bday_girl", "bday_days", "version_update_available", "t_to_mandatory_update"],
     template: 
     `<h4>
-        <span class="timer-number">{{ d_since_release }}</span> days since <span >School Idol Festival</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 10th anniversary.</span></br>
+        <span class="timer-number">{{ d_since_release }}</span> days since <span>School Idol Festival</span> released<span v-if="nextAnnVisible()">; <span v-html="tNext(t_to_next_anniv)"></span> until 10th anniversary.</span></br>
+
         <span>Next birthday is <span class="timer-number">{{ bday_girl }}'s</span> which is <span class="timer-number">{{ bday_days }}</span></span><br />
-        <span v-if="nextEvVisible()">Next event announcement expected in <span v-html="tNext(t_to_next_ann)"></span>.<br /></span></br>
+
+        <span v-if="nextEvVisible()">Next event announcement expected in <span v-html="tNext(t_to_next_ann)"></span>.</span></br>
+        <span v-if="updateVisible()">App Update Available! Version <span class="timer-number">{{ version_update_available }}</span> is available and <span class="timer-number">{{ t_to_mandatory_update }}</span>.</span><br />
     </h4>`/*`<h5>{{ d_since_release }}</h5>`*/,
  
     methods: {
@@ -42,6 +45,10 @@ Vue.component("text-timer", {
                 output += "<span class=\"timer-number\">"+time+" </span>"+format+"";
             }
             return output;
+        },
+        updateVisible : function() {
+            // console.log("updateVisible() called");
+            return this.version_update_available;
         },
         nextEvVisible : function() { 
             return this.t_to_next_ann>0;

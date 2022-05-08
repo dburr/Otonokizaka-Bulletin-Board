@@ -125,7 +125,9 @@ var vm = new Vue({
         t_to_next_ann:[0,0,0],
         t_to_anniv:[0,0,0],
         bday_girl: "SomeGirl",
-        bday_days: 42
+        bday_days: 42,
+        version_update_available: null,
+        t_to_mandatory_update: 42
     },
     methods: {
         changeTimezone: function() {
@@ -423,6 +425,7 @@ var vm = new Vue({
         updateClocks: function() {
             this.japanTime = moment().tz('Asia/Tokyo').format("ddd D MMM, H:mm");
             this.localTime = moment().format("ddd D MMM, H:mm");
+            this.updateUpdateInfo();
             this.updateTimerData();
             this.updateTextTimers();
             this.updateBday();
@@ -434,6 +437,7 @@ var vm = new Vue({
             this.t_to_next_ann = nextAnnounc.diff(nowMoment,"seconds");
             this.t_to_anniv = nextAnniv.diff(nowMoment,"seconds") ;
         },
+
         // yeah this could probably be done better, but It Works(tm)
         updateBday:function() {
             let nowMoment = moment.tz("Asia/Tokyo");
@@ -452,6 +456,26 @@ var vm = new Vue({
                 this.bday_days = "today!";
             } else {
                 this.bday_days = "in " + closestBdayDays + " days.";
+            }
+        },
+
+        updateUpdateInfo:function() {
+            let nowMoment = moment.tz("Asia/Tokyo");
+            if (versionUpdate.length > 0) {
+                // do something!
+                // console.log("DO SOMETHING");
+                this.version_update_available = versionUpdate[0];
+                var nextUpdateDate = moment.tz(versionUpdate[1], "MMM D YYYY, H:mm", "Asia/Tokyo");
+                var daysToMandatory = nextUpdateDate.diff(nowMoment, "days");
+                if (daysToMandatory > 0) {
+                    this.t_to_mandatory_update = "will be mandatory in " + daysToMandatory + " days.";
+                } else {
+                    this.t_to_mandatory_update = "is now mandatory";
+                }
+                console.log("Version " + this.version_update_available + " " + this.t_to_mandatory_update);
+            } else {
+                // console.log("no update available");
+                this.updateAvailable = null;
             }
         },
 
