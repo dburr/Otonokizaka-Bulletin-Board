@@ -157,7 +157,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"9th Anniversary Celebration Golden Week Login Bonus"
+			"9th Anniversary Celebration Login Bonus"
         ],
         "image": [
             "imgs/static/live_arena.png"
@@ -168,7 +168,7 @@ var timerData = [
 			{
 				name: "Duration",
 				start: "Apr 29 2022, 00:00",
-				end: "May 8 2022, 23:59",
+				end: "May 15 2022, 23:59",
 				markers: [
                     {
                         title: "Part 1",
@@ -178,6 +178,11 @@ var timerData = [
                     {
                         title: "Part 2",
                         time: "May 4 2022, 00:00",
+                        type: "star"
+                    },
+                    {
+                        title: "Part 3",
+                        time: "May 9 2022, 00:00",
                         type: "star"
                     }
                 ]
