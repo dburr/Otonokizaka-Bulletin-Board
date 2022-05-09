@@ -43,7 +43,7 @@ outstr = """    {
             "imgs/static/rcfixed.png"
         ],
         "column": 0,
-        "priority": 1500,
+        "priority": 1400,
         "timers": [
             {
                 name: "Main Event",
@@ -84,7 +84,7 @@ outstr = """    {
             }
         ]
     },
-"""
+""" % (fri, mon, sat, sat, sat, sun, sun, sun)
 
 EDITOR = None
 if "EDITOR" in os.environ:
