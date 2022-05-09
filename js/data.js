@@ -71,37 +71,37 @@ var timerData = [
         "timers": [
             {
                 name: "Main Event",
-                start: "May 06 2022, 16:00",
-                end: "May 09 2022, 14:59",
+                start: "May 13 2022, 16:00",
+                end: "May 16 2022, 14:59",
                 markers: [
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 07 2022, 12:00",
+                        time: "May 14 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 07 2022, 17:00",
+                        time: "May 14 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 07 2022, 21:00",
+                        time: "May 14 2022, 21:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 08 2022, 12:00",
+                        time: "May 15 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 08 2022, 17:00",
+                        time: "May 15 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 08 2022, 21:00",
+                        time: "May 15 2022, 21:00",
                         type: "star"
                     }
                ]
