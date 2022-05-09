@@ -306,6 +306,26 @@ var timerData = [
 
     // *** Gacha ***
 
+    {
+        "type": "Gacha",
+        "title": [
+			"Liella! Honor Student Scouting - Childrens' Day"
+        ],
+        "image": [
+            "imgs/gacha/liella_childrens_day.png"
+        ],
+        "column": 1,
+        "priority": 10000,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 10, 00:00",
+				end: "Jun 9 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
     // DONE
     // 9th Anniversary Celebration GW Scouting: μ's
     {
