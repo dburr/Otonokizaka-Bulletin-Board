@@ -465,8 +465,8 @@ var vm = new Vue({
                 // do something!
                 // console.log("DO SOMETHING");
                 this.version_update_available = versionUpdate[0];
-                var nextUpdateDate = moment.tz(versionUpdate[1], "MMM D YYYY, H:mm", "Asia/Tokyo");
-                var daysToMandatory = nextUpdateDate.diff(nowMoment, "days");
+                this.next_update_date = moment.tz(versionUpdate[1], "MMM D YYYY, H:mm", "Asia/Tokyo");
+                var daysToMandatory = this.next_update_date.diff(nowMoment, "days");
                 if (daysToMandatory > 0) {
                     this.t_to_mandatory_update = "will be mandatory in " + daysToMandatory + " days.";
                 } else {
