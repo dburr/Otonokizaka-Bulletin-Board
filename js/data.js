@@ -16,43 +16,22 @@ var timerData = [
 
     // *** Events ***
 
-    // Round 26 COMPANION MATCH
-    // 5/5 16:00 - 5/15 15:00
-    {
-        "type": "Event",
-        "title": [
-			"Round 26 COMPANION MATCH"
-        ],
-        "image": [
-            "imgs/event/cm26.png"
-        ],
-        "column": 0,
-        "priority": 2000,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "May 5 2022, 16:00",
-				end: "May 15 2022, 15:00"
-			}
-        ]
-    },
-
     // 9th Anniversary 3rd Live Setlist - μ's & Aqours
     {
         "type": "Event",
         "title": [
-			"9th Anniversary 3rd Live Setlist - μ's & Aqours"
+			"9th Anniversary 4th Live Setlist - μ's & Aqours"
         ],
         "image": [
-            "imgs/static/live_arena.png"
+            "imgs/event/IMG_8304.PNG"
         ],
         "column": 0,
         "priority": 1500,
         "timers": [
 			{
 				name: "Main Event",
-				start: "Apr 30 2022, 16:00",
-				end: "May 5 2022, 14:59"
+				start: "May 15 2022, 16:00",
+				end: "May 20 2022, 14:59"
 			}
         ]
     },
@@ -71,52 +50,52 @@ var timerData = [
         "timers": [
             {
                 name: "Main Event",
-                start: "May 13 2022, 16:00",
-                end: "May 16 2022, 14:59",
+                start: "May 20 2022, 16:00",
+                end: "May 23 2022, 14:59",
                 markers: [
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 14 2022, 12:00",
+                        time: "May 21 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 14 2022, 17:00",
+                        time: "May 21 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 14 2022, 21:00",
+                        time: "May 21 2022, 21:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 15 2022, 12:00",
+                        time: "May 22 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 15 2022, 17:00",
+                        time: "May 22 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "May 15 2022, 21:00",
+                        time: "May 22 2022, 21:00",
                         type: "star"
                     }
                ]
             }
         ]
     },
-
+    
     // Live Arena
     {
         "type": "Event",
         "title": [
-			"Live Arena"
+			"Round 19 Live Arena Season 4 - Shiny and Sparkly"
         ],
         "image": [
-            "imgs/static/live_arena.png"
+            "imgs/event/IMG_8298.PNG"
         ],
         "column": 0,
         "priority": 1500,
@@ -124,69 +103,54 @@ var timerData = [
 			{
 				name: "Main Event",
 				start: "Apr 30 2022, 16:00",
-				end: "May 25 2022, 14:59"
+				end: "May 25 2022, 23:59"
 			}
         ]
     },
 
-    // 9th Anniversary Live Support
+    // 9th Anniversary Post Event Login Bonus
     {
         "type": "Event",
         "title": [
-			"9th Anniversary Live Support"
+			"9th Anniversary Post Event Login Bonus"
         ],
         "image": [
-            "imgs/static/live_arena.png"
-        ],
-        "column": 0,
-        "priority": 500,
-        "timers": [
-			{
-				name: "10x EXP",
-				start: "Apr 15 2022, 16:00",
-				end: "Apr 28 2022, 23:59"
-			},
-			{
-				name: "Goals",
-				start: "Apr 15 2022, 16:00",
-				end: "May 15 2022, 14:59"
-			}
-        ]
-    },
-
-    // 9th Anniversary Celebration Golden Week Login Bonus
-    {
-        "type": "Event",
-        "title": [
-			"9th Anniversary Celebration Login Bonus"
-        ],
-        "image": [
-            "imgs/static/live_arena.png"
+            "imgs/lbonus/IMG_8300.PNG"
         ],
         "column": 0,
         "priority": 500,
         "timers": [
 			{
 				name: "Duration",
-				start: "Apr 29 2022, 00:00",
-				end: "May 15 2022, 23:59",
+				start: "May 15 2022, 00:00",
+				end: "May 19 2022, 23:59",
 				markers: [
                     {
                         title: "Part 1",
-                        time: "Apr 29 2022, 00:00",
-                        type: "star"
-                    },
-                    {
-                        title: "Part 2",
-                        time: "May 4 2022, 00:00",
-                        type: "star"
-                    },
-                    {
-                        title: "Part 3",
-                        time: "May 9 2022, 00:00",
+                        time: "May 15 2022, 00:00",
                         type: "star"
                     }
                 ]
+            }
+        ]
+    },
+
+    // Kagayake! Aqours Numazu Festival in Yomiuriland Event Opening Login Bonus
+    {
+        "type": "Event",
+        "title": [
+			"Kagayake! Aqours Numazu Festival in Yomiuriland Event Opening Login Bonus"
+        ],
+        "image": [
+            "imgs/lbonus/IMG_8299.PNG"
+        ],
+        "column": 0,
+        "priority": 500,
+        "timers": [
+			{
+				name: "Duration",
+				start: "May 15 2022, 16:00",
+				end: "June 5 2022, 23:59"
             }
         ]
     },
@@ -233,40 +197,28 @@ var timerData = [
         ]
     },
 
-    // 9th Anniversary Music Festival
-    {
+    // Live Show Support Campaign
+	{
         "type": "Event",
         "title": [
-			"9th Anniversary Music Festival"
+			"Live Show Support Campaign"
         ],
         "image": [
-            "imgs/event/music_festival.png"
+            "imgs/static/live_arena.png"
         ],
         "column": 0,
-        "priority": 1000,
+        "priority": 500,
         "timers": [
             {
-                name: "Duration",
-                start: "Apr 5 2022, 16:00",
-				end: "May 15 2022, 15:59",
-                extraPriority: 100,
-                markers: [
-                    {
-                        title: "Part 1",
-                        time: "Apr 5 2022, 16:00",
-                        type: "mission"
-                    },
-                    {
-                        title: "Part 2",
-                        time: "Apr 30 2022, 16:00",
-                        type: "mission"
-                    },
-                ]
+                name: "Super/Ultra Succ Rates x5",
+                start: "May 15 2022, 16:00",
+				end: "May 31 2022, 15:59",
             }
         ],
     },
 
-    // Twitter Post Campaign
+
+    // TODO: Twitter Post Campaign
 	{
         "type": "Event",
         "title": [
