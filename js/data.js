@@ -1,7 +1,8 @@
 var releaseDate = "April 15 2013, 0:00";
 var possibleNextAnnouncementDate = "May 19 2022, 15:00";
 var nextAnniversary = "Apr 15 2023, 0:00";
-var versionUpdate = ["9.7 (iOS) / 9.7.1 (Android)", "May 20 2022, 16:00"];
+var versionUpdate = [];
+//var versionUpdate = ["9.7 (iOS) / 9.7.1 (Android)", "May 20 2022, 16:00"];
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
