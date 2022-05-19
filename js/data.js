@@ -16,6 +16,26 @@ var timerData = [
 
     // *** Events ***
 
+    // Round 34 CHALLENGE FESTIVAL
+    {
+        "type": "Event",
+        "title": [
+			"Round 34 CHALLENGE FESTIVAL"
+        ],
+        "image": [
+            "imgs/event/cf34.png"
+        ],
+        "column": 0,
+        "priority": 2000,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "May 20 2022, 16:00",
+				end: "May 31 2022, 14:59"
+			}
+        ]
+    },
+
     // 9th Anniversary 3rd Live Setlist - μ's & Aqours
     {
         "type": "Event",
