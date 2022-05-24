@@ -240,6 +240,48 @@ var timerData = [
 
     // *** Gacha ***
 
+    // Ai Birthday Box - Brilliant Jewelry (Paid Only)
+    {
+        "type": "Gacha",
+        "title": [
+            "Ai Birthday Box - Brilliant Jewelry (Paid Only)"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8519.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 24 2022, 00:00",
+                end: "May 30 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Ai Happy Birthday Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Ai Happy Birthday Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8520.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 24 2022, 00:00",
+                end: "May 30 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+    
     // Golden Week Box Scouting - μ's
     {
         "type": "Gacha",
