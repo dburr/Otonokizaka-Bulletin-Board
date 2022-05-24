@@ -240,6 +240,240 @@ var timerData = [
 
     // *** Gacha ***
 
+    // Golden Week Box Scouting - μ's
+    {
+        "type": "Gacha",
+        "title": [
+            "Golden Week Box Scouting - μ's"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8439.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 5 2022, 16:00",
+                end: "May 25 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Aqours 1st Years Limited Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Post Event Aqours 1st Years Limited Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8448.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // 9th Anniversary Medal Special 1st Years Limited Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Medal Special 1st Years Limited Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8437.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "Jun 9 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // 9th Anniversary Medal Special 1st Years Limited Scouting - μ's
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Medal Special 1st Years Limited Scouting - μ's"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8437.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "Jun 9 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // 9th Anniversary Medal Special 1st Years Limited Scouting - Aqours
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Medal Special 1st Years Limited Scouting - Aqours"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8454.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "Jun 9 2022, 23:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Dreamy Live Show μ's Festival Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Dreamy Live Show μ's Festival Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8438.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 14:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Dreamy Live Show Aqours Festival Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Dreamy Live Show Aqours Festival Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8455.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 14:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Dreamy Live Show Nijigasaki Festival Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Dreamy Live Show Nijigasaki Festival Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8465.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 14:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Dreamy Live Show Nijigasaki Festival Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Dreamy Live Show Nijigasaki Festival Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8465.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 14:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
+    // Dreamy Live Show Liella! Festival Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Dreamy Live Show Liella! Festival Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8472.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 14:59",
+                extraPriority: 1
+            }
+        ]
+    },
+
     // Liella! Honor Student Scouting - Childrens' Day
     {
         "type": "Gacha",
@@ -256,6 +490,39 @@ var timerData = [
                 name: "Duration",
                 start: "May 10, 00:00",
 				end: "Jun 9 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // Golden Week Box Scouting: Aqours
+    {
+        "type": "Gacha",
+        "title": [
+			"Golden Week Box Scouting: Aqours"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8456.PNG"
+        ],
+        "column": 1,
+        "priority": 5000,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Boost Box",
+                start: "Apr 29 2022, 00:00",
+				end: "May 25 2022, 23:59",
                 extraPriority: 100
             }
         ]
@@ -323,6 +590,27 @@ var timerData = [
                 start: "Apr 29 2022, 00:00",
 				end: "May 25 2022, 23:59",
                 extraPriority: 100
+            }
+        ]
+    },
+
+    // Extra Support Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Extra Support Scouting - μ's & Aqours"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8447.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "Jun 9 2022, 23:59",
+                extraPriority: 1
             }
         ]
     },
