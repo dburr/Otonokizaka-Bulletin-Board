@@ -328,6 +328,28 @@ var timerData = [
     },
 
     // *** Packs ***
+
+    // Ai Happy Birthday Pack
+    {
+        type: "Other",
+        title: [
+            "Ai Happy Birthday Pack"
+        ],
+        image: [
+            "imgs/packs/IMG_8514.PNG"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [ 
+            {
+                name: "Sales period",
+                start: "May 24 2022, 00:00",
+                end: "May 30 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
     // 9th Anniversary Post Event Love Gem Pack Part 
     {
 		type: "Other",
