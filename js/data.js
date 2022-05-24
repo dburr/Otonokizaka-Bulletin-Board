@@ -1,8 +1,8 @@
 var releaseDate = "April 15 2013, 0:00";
 var possibleNextAnnouncementDate = "May 19 2022, 15:00";
 var nextAnniversary = "Apr 15 2023, 0:00";
-//var versionUpdate = [];
-var versionUpdate = ["9.7 (iOS) / 9.7.2 (Android)", "May 20 2022, 16:00"];
+var versionUpdate = [];
+//var versionUpdate = ["9.7 (iOS) / 9.7.2 (Android)", "Jun 1 2022, 16:00"];
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -328,6 +328,129 @@ var timerData = [
     },
 
     // *** Packs ***
+    // 9th Anniversary Post Event Love Gem Pack Part 
+    {
+		type: "Other",
+		title: [
+    		"9th Anniversary Post Event Love Gem Pack Part 1"
+		],
+		image: [
+            "imgs/packs/IMG_8429.PNG"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+            {
+                name: "Sales period",
+                start: "May 20 2022, 16:00",
+                end: "May 25 2022, 14:59",
+                extraPriority: 100
+            }
+		]
+	},
 
+    // 9th Anniversary Post Event Premium Pack - Aqours
+    {
+		type: "Other",
+		title: [
+    		"9th Anniversary Post Event Premium Pack - Aqours"
+		],
+		image: [
+            "imgs/packs/IMG_8430.PNG"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+            {
+                name: "Sales period",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 23:59",
+                extraPriority: 100
+            }
+		]
+	},
 
+    // 9th Anniversary Post Event Special Pack - Aqours
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Special Pack - Aqours"
+        ],
+        image: [
+            "imgs/packs/IMG_8431.PNG"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [ 
+            {
+                name: "Sales period",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Mini Pack - Aqours
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Mini Pack - Aqours"
+        ],
+        image: [
+            "imgs/packs/IMG_8432.PNG"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [ 
+            {
+                name: "Sales period",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Lite Love Gem Pack - Aqours
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Lite Love Gem Pack - Aqours"
+        ],
+        image: [
+            "imgs/packs/IMG_8433.PNG"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [ 
+            {
+                name: "Sales period",
+                start: "May 15 2022, 16:00",
+                end: "May 31 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
+    // Monthly Liella Pack
+    {
+		type: "Other",
+		title: [
+    		"SIF Honor Student Pack - Liella!"
+		],
+		image: [
+            "imgs/static/packs/monthly_liella.png"
+        ],
+		column: 2,
+		priority: 1,
+		timers: [ 
+            {
+                name: "Sales period",
+                start: "May 10 2022, 00:00",
+                end: "Jun 9 2022, 23:59",
+                extraPriority: 100
+            }
+		]
+	}
 ];
