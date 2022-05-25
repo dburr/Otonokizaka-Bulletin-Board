@@ -240,6 +240,39 @@ var timerData = [
 
     // *** Gacha ***
 
+    // 9th Anniversary Post Event Aqours 3rd Years Limited Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Post Event Aqours 3rd Years Limited Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8544.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 25 2022, 16:00",
+                end: "Jun 1 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 25 2022, 16:00",
+                end: "Jun 1 2022, 23:59",
+                extraPriority: 100
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 25 2022, 16:00",
+                end: "Jun 1 2022, 23:59",
+                extraPriority: 100
+            }
+        ]
+    },
+
     // Ai Birthday Box - Brilliant Jewelry (Paid Only)
     {
         "type": "Gacha",
@@ -680,22 +713,22 @@ var timerData = [
         ]
     },
 
-    // 9th Anniversary Post Event Love Gem Pack Part 
+    // 9th Anniversary Post Event Love Gem Pack Part 2
     {
 		type: "Other",
 		title: [
-    		"9th Anniversary Post Event Love Gem Pack Part 1"
+    		"9th Anniversary Post Event Love Gem Pack Part 2"
 		],
 		image: [
-            "imgs/packs/IMG_8429.PNG"
+            "imgs/packs/IMG_8541.PNG"
         ],
 		column: 2,
 		priority: 1,
 		timers: [ 
             {
                 name: "Sales period",
-                start: "May 20 2022, 16:00",
-                end: "May 25 2022, 14:59",
+                start: "May 25 2022, 16:00",
+                end: "May 31 2022, 14:59",
                 extraPriority: 100
             }
 		]
