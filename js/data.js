@@ -21,7 +21,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"Round 34 CHALLENGE FESTIVAL"
+            "Round 34 CHALLENGE FESTIVAL"
         ],
         "image": [
             "imgs/event/cf34.png"
@@ -29,11 +29,11 @@ var timerData = [
         "column": 0,
         "priority": 2000,
         "timers": [
-			{
-				name: "Main Event",
-				start: "May 20 2022, 16:00",
-				end: "May 31 2022, 14:59"
-			}
+            {
+                name: "Main Event",
+                start: "May 20 2022, 16:00",
+                end: "May 31 2022, 14:59"
+            }
         ]
     },
 
@@ -84,7 +84,7 @@ var timerData = [
                         time: "May 29 2022, 21:00",
                         type: "star"
                     }
-               ]
+                ]
             }
         ]
     },
@@ -94,7 +94,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"Live Arena"
+            "Live Arena"
         ],
         "image": [
             "imgs/static/live_arena.png"
@@ -102,11 +102,11 @@ var timerData = [
         "column": 0,
         "priority": 1500,
         "timers": [
-			{
-				name: "Main Event",
-				start: "May 31 2022, 16:00",
-				end: "Jun 25 2022, 23:59"
-			}
+            {
+                name: "Main Event",
+                start: "May 31 2022, 16:00",
+                end: "Jun 25 2022, 23:59"
+            }
         ]
     },
 
@@ -114,7 +114,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"9th Anniversary 4th Live Setlist - μ's & Aqours"
+            "9th Anniversary 4th Live Setlist - μ's & Aqours"
         ],
         "image": [
             "imgs/event/IMG_8304.PNG"
@@ -122,19 +122,19 @@ var timerData = [
         "column": 0,
         "priority": 1500,
         "timers": [
-			{
-				name: "Main Event",
-				start: "May 15 2022, 16:00",
-				end: "May 20 2022, 14:59"
-			}
+            {
+                name: "Main Event",
+                start: "May 15 2022, 16:00",
+                end: "May 20 2022, 14:59"
+            }
         ]
     },
-    
+
     // 9th Anniversary Post Event Login Bonus
     {
         "type": "Event",
         "title": [
-			"9th Anniversary Post Event Login Bonus"
+            "9th Anniversary Post Event Login Bonus"
         ],
         "image": [
             "imgs/lbonus/IMG_8300.PNG"
@@ -142,11 +142,11 @@ var timerData = [
         "column": 0,
         "priority": 500,
         "timers": [
-			{
-				name: "Duration",
-				start: "May 15 2022, 00:00",
-				end: "May 19 2022, 23:59",
-				markers: [
+            {
+                name: "Duration",
+                start: "May 15 2022, 00:00",
+                end: "May 19 2022, 23:59",
+                markers: [
                     {
                         title: "Part 1",
                         time: "May 15 2022, 00:00",
@@ -161,7 +161,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"Kagayake! Aqours Numazu Festival in Yomiuriland Event Opening Login Bonus"
+            "Kagayake! Aqours Numazu Festival in Yomiuriland Event Opening Login Bonus"
         ],
         "image": [
             "imgs/lbonus/IMG_8299.PNG"
@@ -169,10 +169,10 @@ var timerData = [
         "column": 0,
         "priority": 500,
         "timers": [
-			{
-				name: "Duration",
-				start: "May 15 2022, 16:00",
-				end: "June 5 2022, 23:59"
+            {
+                name: "Duration",
+                start: "May 15 2022, 16:00",
+                end: "June 5 2022, 23:59"
             }
         ]
     },
@@ -181,7 +181,7 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-			"9th Anniversary Big Lottery"
+            "9th Anniversary Big Lottery"
         ],
         "image": [
             "imgs/event/lottery.png"
@@ -189,10 +189,10 @@ var timerData = [
         "column": 0,
         "priority": 1000,
         "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 5 2022, 00:00",
-				end: "Jun 10 2022, 23:59",
+            {
+                name: "Main Event",
+                start: "Apr 5 2022, 00:00",
+                end: "Jun 10 2022, 23:59",
                 markers: [
                     {
                         title: "Period 1",
@@ -215,15 +215,15 @@ var timerData = [
                         type: "mission"
                     }
                 ]
-			}
+            }
         ]
     },
 
     // Live Show Support Campaign
-	{
+    {
         "type": "Event",
         "title": [
-			"Live Show Support Campaign"
+            "Live Show Support Campaign"
         ],
         "image": [
             "imgs/static/live_arena.png"
@@ -234,12 +234,42 @@ var timerData = [
             {
                 name: "Super/Ultra Succ Rates x5",
                 start: "May 15 2022, 16:00",
-				end: "May 31 2022, 15:59",
+                end: "May 31 2022, 15:59",
             }
         ],
     },
 
     // *** Gacha ***
+
+    // 9th Anniversary Post Event Aqours 1st Years Limited Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Post Event Aqours 1st Years Limited Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/IMG_8448.PNG"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59"
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59"
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 5 2022, 16:00",
+                end: "May 27 2022, 23:59"
+            }
+        ]
+    },
 
     // 9th Anniversary Post Event Aqours 3rd Years Limited Box Scouting
     {
@@ -256,20 +286,17 @@ var timerData = [
             {
                 name: "Limited Box",
                 start: "May 25 2022, 16:00",
-                end: "Jun 1 2022, 23:59",
-                extraPriority: 100
+                end: "Jun 1 2022, 23:59"
             },
             {
                 name: "Paid-Only Limited Box",
                 start: "May 25 2022, 16:00",
-                end: "Jun 1 2022, 23:59",
-                extraPriority: 100
+                end: "Jun 1 2022, 23:59"
             },
             {
                 name: "SR+ Pick-up Boost Box",
                 start: "May 25 2022, 16:00",
-                end: "Jun 1 2022, 23:59",
-                extraPriority: 100
+                end: "Jun 1 2022, 23:59"
             }
         ]
     },
@@ -289,8 +316,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59",
-                extraPriority: 1
+                end: "May 30 2022, 23:59"
             }
         ]
     },
@@ -310,12 +336,11 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59",
-                extraPriority: 1
+                end: "May 30 2022, 23:59"
             }
         ]
     },
-    
+
     // Golden Week Box Scouting - μ's
     {
         "type": "Gacha",
@@ -331,53 +356,17 @@ var timerData = [
             {
                 name: "Limited Box",
                 start: "May 5 2022, 16:00",
-                end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "Paid-Only Limited Box",
                 start: "May 5 2022, 16:00",
-                end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "SR+ Pick-up Boost Box",
                 start: "May 5 2022, 16:00",
-                end: "May 25 2022, 23:59",
-                extraPriority: 100
-            }
-        ]
-    },
-
-    // 9th Anniversary Post Event Aqours 1st Years Limited Box Scouting
-    {
-        "type": "Gacha",
-        "title": [
-            "9th Anniversary Post Event Aqours 1st Years Limited Box Scouting"
-        ],
-        "image": [
-            "imgs/gacha/IMG_8448.PNG"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "Limited Box",
-                start: "May 5 2022, 16:00",
-                end: "May 27 2022, 23:59",
-                extraPriority: 100
-            },
-            {
-                name: "Paid-Only Limited Box",
-                start: "May 5 2022, 16:00",
-                end: "May 27 2022, 23:59",
-                extraPriority: 100
-            },
-            {
-                name: "SR+ Pick-up Boost Box",
-                start: "May 5 2022, 16:00",
-                end: "May 27 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             }
         ]
     },
@@ -397,8 +386,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "Jun 9 2022, 23:59",
-                extraPriority: 1
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
@@ -418,8 +406,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "Jun 9 2022, 23:59",
-                extraPriority: 1
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
@@ -439,8 +426,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "Jun 9 2022, 23:59",
-                extraPriority: 1
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
@@ -460,8 +446,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 1
+                end: "May 31 2022, 14:59"
             }
         ]
     },
@@ -481,8 +466,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 1
+                end: "May 31 2022, 14:59"
             }
         ]
     },
@@ -502,8 +486,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 1
+                end: "May 31 2022, 14:59"
             }
         ]
     },
@@ -523,8 +506,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 1
+                end: "May 31 2022, 14:59"
             }
         ]
     },
@@ -544,8 +526,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 1
+                end: "May 31 2022, 14:59"
             }
         ]
     },
@@ -554,7 +535,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"Liella! Honor Student Scouting - Childrens' Day"
+            "Liella! Honor Student Scouting - Childrens' Day"
         ],
         "image": [
             "imgs/gacha/liella_childrens_day.png"
@@ -565,8 +546,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 10, 00:00",
-				end: "Jun 9 2022, 23:59",
-                extraPriority: 100
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
@@ -575,7 +555,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"Golden Week Box Scouting: Aqours"
+            "Golden Week Box Scouting: Aqours"
         ],
         "image": [
             "imgs/gacha/IMG_8456.PNG"
@@ -586,20 +566,17 @@ var timerData = [
             {
                 name: "Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "Paid-Only Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "SR+ Boost Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             }
         ]
     },
@@ -608,7 +585,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"Golden Week Box Scouting: Nijigasaki"
+            "Golden Week Box Scouting: Nijigasaki"
         ],
         "image": [
             "imgs/gacha/secretbox_2204_29_OpX9G6N0xr.png"
@@ -619,20 +596,17 @@ var timerData = [
             {
                 name: "Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59",
             },
             {
                 name: "Paid-Only Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "SR+ Boost Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             }
         ]
     },
@@ -641,7 +615,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-			"Golden Week Box Scouting: Liella!"
+            "Golden Week Box Scouting: Liella!"
         ],
         "image": [
             "imgs/gacha/secretbox_2204_29_Jqp2jsrwcU.png"
@@ -652,20 +626,17 @@ var timerData = [
             {
                 name: "Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "Paid-Only Limited Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             },
             {
                 name: "SR+ Boost Box",
                 start: "Apr 29 2022, 00:00",
-				end: "May 25 2022, 23:59",
-                extraPriority: 100
+                end: "May 25 2022, 23:59"
             }
         ]
     },
@@ -685,8 +656,7 @@ var timerData = [
             {
                 name: "Duration",
                 start: "May 15 2022, 16:00",
-                end: "Jun 9 2022, 23:59",
-                extraPriority: 1
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
@@ -704,57 +674,54 @@ var timerData = [
         ],
         column: 2,
         priority: 1,
-        timers: [ 
+        timers: [
             {
                 name: "Sales period",
                 start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59",
-                extraPriority: 100
+                end: "May 30 2022, 23:59"
             }
         ]
     },
 
     // 9th Anniversary Post Event Love Gem Pack Part 2
     {
-		type: "Other",
-		title: [
-    		"9th Anniversary Post Event Love Gem Pack Part 2"
-		],
-		image: [
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Love Gem Pack Part 2"
+        ],
+        image: [
             "imgs/packs/IMG_8541.PNG"
         ],
-		column: 2,
-		priority: 1,
-		timers: [ 
+        column: 2,
+        priority: 1,
+        timers: [
             {
                 name: "Sales period",
                 start: "May 25 2022, 16:00",
-                end: "May 31 2022, 14:59",
-                extraPriority: 100
+                end: "May 31 2022, 14:59"
             }
-		]
-	},
+        ]
+    },
 
     // 9th Anniversary Post Event Premium Pack - Aqours
     {
-		type: "Other",
-		title: [
-    		"9th Anniversary Post Event Premium Pack - Aqours"
-		],
-		image: [
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Premium Pack - Aqours"
+        ],
+        image: [
             "imgs/packs/IMG_8430.PNG"
         ],
-		column: 2,
-		priority: 1,
-		timers: [ 
+        column: 2,
+        priority: 1,
+        timers: [
             {
                 name: "Sales period",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 23:59",
-                extraPriority: 100
+                end: "May 31 2022, 23:59"
             }
-		]
-	},
+        ]
+    },
 
     // 9th Anniversary Post Event Special Pack - Aqours
     {
@@ -767,12 +734,11 @@ var timerData = [
         ],
         column: 2,
         priority: 1,
-        timers: [ 
+        timers: [
             {
                 name: "Sales period",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 23:59",
-                extraPriority: 100
+                end: "May 31 2022, 23:59"
             }
         ]
     },
@@ -788,12 +754,11 @@ var timerData = [
         ],
         column: 2,
         priority: 1,
-        timers: [ 
+        timers: [
             {
                 name: "Sales period",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 23:59",
-                extraPriority: 100
+                end: "May 31 2022, 23:59"
             }
         ]
     },
@@ -809,34 +774,32 @@ var timerData = [
         ],
         column: 2,
         priority: 1,
-        timers: [ 
+        timers: [
             {
                 name: "Sales period",
                 start: "May 15 2022, 16:00",
-                end: "May 31 2022, 23:59",
-                extraPriority: 100
+                end: "May 31 2022, 23:59"
             }
         ]
     },
 
     // Monthly Liella Pack
     {
-		type: "Other",
-		title: [
-    		"SIF Honor Student Pack - Liella!"
-		],
-		image: [
+        type: "Other",
+        title: [
+            "SIF Honor Student Pack - Liella!"
+        ],
+        image: [
             "imgs/static/packs/monthly_liella.png"
         ],
-		column: 2,
-		priority: 1,
-		timers: [ 
+        column: 2,
+        priority: 1,
+        timers: [
             {
                 name: "Sales period",
                 start: "May 10 2022, 00:00",
-                end: "Jun 9 2022, 23:59",
-                extraPriority: 100
+                end: "Jun 9 2022, 23:59"
             }
-		]
-	}
+        ]
+    }
 ];
