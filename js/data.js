@@ -37,6 +37,58 @@ var timerData = [
         ]
     },
 
+    // Weekly Rhythmic Carnival
+    {
+        "type": "Event",
+        "title": [
+            "Rhythmic Carnival"
+        ],
+        "image": [
+            "imgs/static/rcfixed.png"
+        ],
+        "column": 0,
+        "priority": 1400,
+        "timers": [
+            {
+                name: "Main Event",
+                start: "May 27 2022, 16:00",
+                end: "May 30 2022, 14:59",
+                markers: [
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 28 2022, 12:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 28 2022, 17:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 28 2022, 21:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 29 2022, 12:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 29 2022, 17:00",
+                        type: "star"
+                    },
+                    {
+                        title: "5x EXP (for 2 hours)",
+                        time: "May 29 2022, 21:00",
+                        type: "star"
+                    }
+               ]
+            }
+        ]
+    },
+
     // 9th Anniversary 3rd Live Setlist - μ's & Aqours
     {
         "type": "Event",
