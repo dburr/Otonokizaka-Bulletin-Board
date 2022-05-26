@@ -89,6 +89,27 @@ var timerData = [
         ]
     },
 
+    // Monthly Live Arena
+    // For the generic image, use imgs/static/live_arena.png
+    {
+        "type": "Event",
+        "title": [
+			"Live Arena"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 1500,
+        "timers": [
+			{
+				name: "Main Event",
+				start: "May 31 2022, 16:00",
+				end: "Jun 25 2022, 23:59"
+			}
+        ]
+    },
+
     // 9th Anniversary 3rd Live Setlist - μ's & Aqours
     {
         "type": "Event",
@@ -108,79 +129,7 @@ var timerData = [
 			}
         ]
     },
-
-    // Rhythmic Carnival
-    {
-        "type": "Event",
-        "title": [
-            "Rhythmic Carnival"
-        ],
-        "image": [
-            "imgs/static/rcfixed.png"
-        ],
-        "column": 0,
-        "priority": 1400,
-        "timers": [
-            {
-                name: "Main Event",
-                start: "May 20 2022, 16:00",
-                end: "May 23 2022, 14:59",
-                markers: [
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 21 2022, 12:00",
-                        type: "star"
-                    },
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 21 2022, 17:00",
-                        type: "star"
-                    },
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 21 2022, 21:00",
-                        type: "star"
-                    },
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 22 2022, 12:00",
-                        type: "star"
-                    },
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 22 2022, 17:00",
-                        type: "star"
-                    },
-                    {
-                        title: "5x EXP (for 2 hours)",
-                        time: "May 22 2022, 21:00",
-                        type: "star"
-                    }
-               ]
-            }
-        ]
-    },
     
-    // Live Arena
-    {
-        "type": "Event",
-        "title": [
-			"Round 19 Live Arena Season 4 - Shiny and Sparkly"
-        ],
-        "image": [
-            "imgs/event/IMG_8298.PNG"
-        ],
-        "column": 0,
-        "priority": 1500,
-        "timers": [
-			{
-				name: "Main Event",
-				start: "Apr 30 2022, 16:00",
-				end: "May 25 2022, 23:59"
-			}
-        ]
-    },
-
     // 9th Anniversary Post Event Login Bonus
     {
         "type": "Event",
