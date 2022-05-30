@@ -235,6 +235,66 @@ var timerData = [
 
     // *** Gacha ***
 
+    // 9th Anniversary Post Event μ's 2nd Years Limited Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Post Event μ's 2nd Years Limited Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_31_ALWG0fhLvi.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Aqours 2nd Years Limited Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "9th Anniversary Post Event Aqours 2nd Years Limited Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2205_31_5WrdvAiSP9.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Limited Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            },
+            {
+                name: "Paid-Only Limited Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            },
+            {
+                name: "SR+ Pick-up Boost Box",
+                start: "May 31 2022, 16:00",
+                end: "Jun 7 2022, 23:59"
+            }
+        ]
+    },
+
     // 9th Anniversary Post Event Aqours 1st Years Limited Box Scouting
     {
         "type": "Gacha",
