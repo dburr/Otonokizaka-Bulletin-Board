@@ -110,6 +110,27 @@ var timerData = [
         ]
     },
 
+    // Monthly Live Arena
+    // For the generic image, use imgs/static/live_arena.png
+    {
+        "type": "Event",
+        "title": [
+            "9th Anniversary 5th Live: μ's & Aqours Set List"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 1500,
+        "timers": [
+            {
+                name: "Main Event",
+                start: "May 31 2022, 16:00",
+                end: "Jun 5 2022, 14:59"
+            }
+        ]
+    },
+
     // 9th Anniversary 3rd Live Setlist - μ's & Aqours
     {
         "type": "Event",
