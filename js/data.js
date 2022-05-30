@@ -737,6 +737,106 @@ var timerData = [
         ]
     },
 
+    // 9th Anniversary Post Event Love Gem Pack Part 3
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Love Gem Pack Part 3"
+        ],
+        image: [
+            "imgs/packs/news_2205_31_StPsUVI9te.png"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [
+            {
+                name: "Sales period",
+                start: "May 31 2022, 16:00",
+                end: "Jun 5 2022, 14:59"
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Premium Pack μ's
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Premium Pack μ's"
+        ],
+        image: [
+            "imgs/packs/news_2205_31_rJ2xPqlSk4.png"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [
+            {
+                name: "Sales period",
+                start: "May 31 2022, 16:00",
+                end: "Jun 15 2022, 23:59"
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Special Pack μ's
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Special Pack μ's"
+        ],
+        image: [
+            "imgs/packs/news_2205_31_D1XUcuegW7.png"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [
+            {
+                name: "Sales period",
+                start: "May 31 2022, 16:00",
+                end: "Jun 15 2022, 23:59"
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Mini Pack μ's
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Mini Pack μ's"
+        ],
+        image: [
+            "imgs/packs/news_2205_31_D1XUcuegW7.png"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [
+            {
+                name: "Sales period",
+                start: "May 31 2022, 16:00",
+                end: "Jun 15 2022, 23:59"
+            }
+        ]
+    },
+
+    // 9th Anniversary Post Event Lite Love Gem Pack μ's
+    {
+        type: "Other",
+        title: [
+            "9th Anniversary Post Event Lite Love Gem Pack μ's"
+        ],
+        image: [
+            "imgs/packs/news_2205_31_1d5dzLFOCj.png"
+        ],
+        column: 2,
+        priority: 1,
+        timers: [
+            {
+                name: "Sales period",
+                start: "May 31 2022, 16:00",
+                end: "Jun 15 2022, 23:59"
+            }
+        ]
+    },
+
     // 9th Anniversary Post Event Love Gem Pack Part 2
     {
         type: "Other",
