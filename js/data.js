@@ -2,7 +2,7 @@ var releaseDate = "April 15 2013, 0:00";
 var possibleNextAnnouncementDate = "May 19 2022, 15:00";
 var nextAnniversary = "Apr 15 2023, 0:00";
 //var versionUpdate = [];
-var versionUpdate = ["9.7.5 (iOS only)", "May 31 2022, 16:00"];
+var versionUpdate = ["9.7.5", "May 31 2022, 16:00"];
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -110,7 +110,7 @@ var timerData = [
         ]
     },
 
-    // Monthly Live Arena
+    // Setlist
     // For the generic image, use imgs/static/live_arena.png
     {
         "type": "Event",
@@ -131,26 +131,6 @@ var timerData = [
         ]
     },
 
-    // 9th Anniversary 3rd Live Setlist - μ's & Aqours
-    {
-        "type": "Event",
-        "title": [
-            "9th Anniversary 4th Live Setlist - μ's & Aqours"
-        ],
-        "image": [
-            "imgs/event/IMG_8304.PNG"
-        ],
-        "column": 0,
-        "priority": 1500,
-        "timers": [
-            {
-                name: "Main Event",
-                start: "May 15 2022, 16:00",
-                end: "May 20 2022, 14:59"
-            }
-        ]
-    },
-
     // 9th Anniversary Post Event Login Bonus
     {
         "type": "Event",
@@ -165,15 +145,8 @@ var timerData = [
         "timers": [
             {
                 name: "Duration",
-                start: "May 15 2022, 00:00",
-                end: "May 19 2022, 23:59",
-                markers: [
-                    {
-                        title: "Part 1",
-                        time: "May 15 2022, 00:00",
-                        type: "star"
-                    }
-                ]
+                start: "Jun 1 2022, 00:00",
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
