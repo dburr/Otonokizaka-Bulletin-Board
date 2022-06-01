@@ -751,8 +751,8 @@ var timerData = [
         timers: [
             {
                 name: "Sales period",
-                start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59"
+                start: "Jun 3 2022, 00:00",
+                end: "Jun 9 2022, 23:59"
             }
         ]
     },
