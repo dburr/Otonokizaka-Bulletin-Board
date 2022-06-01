@@ -226,7 +226,7 @@ var timerData = [
         "priority": 500,
         "timers": [
             {
-                name: "Super/Ultra Succ Rates x5",
+                name: "Goals",
                 start: "Jun 3 2022, 00:00",
                 end: "Jun 9 2022, 23:59",
             }
