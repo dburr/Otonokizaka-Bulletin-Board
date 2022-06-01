@@ -118,7 +118,7 @@ var timerData = [
             "9th Anniversary 5th Live: μ's & Aqours Set List"
         ],
         "image": [
-            "imgs/static/live_arena.png"
+            "imgs/event/IMG_8641.PNG"
         ],
         "column": 0,
         "priority": 1500,
@@ -131,14 +131,14 @@ var timerData = [
         ]
     },
 
-    // 9th Anniversary Post Event Login Bonus
+    // 9th Anniversary Post Event Login Bonus Part 4
     {
         "type": "Event",
         "title": [
-            "9th Anniversary Post Event Login Bonus"
+            "9th Anniversary Post Event Login Bonus Part 4"
         ],
         "image": [
-            "imgs/lbonus/IMG_8300.PNG"
+            "imgs/lbonus/IMG_8639.PNG"
         ],
         "column": 0,
         "priority": 500,
