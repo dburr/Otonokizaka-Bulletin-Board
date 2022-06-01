@@ -213,6 +213,26 @@ var timerData = [
         ]
     },
 
+    // Nozomi Birthday Goals
+    {
+        "type": "Event",
+        "title": [
+            "Nozomi Birthday Goals"
+        ],
+        "image": [
+            "imgs/static/live_arena.png"
+        ],
+        "column": 0,
+        "priority": 500,
+        "timers": [
+            {
+                name: "Super/Ultra Succ Rates x5",
+                start: "Jun 3 2022, 00:00",
+                end: "Jun 9 2022, 23:59",
+            }
+        ],
+    },
+
     // Live Show Support Campaign
     {
         "type": "Event",
@@ -234,6 +254,46 @@ var timerData = [
     },
 
     // *** Gacha ***
+
+    // Nozomi Birthday Box - Brilliant Jewelry (Paid Only)
+    {
+        "type": "Gacha",
+        "title": [
+            "Nozomi Birthday Box - Brilliant Jewelry (Paid Only)"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2206_03_2M8b86awUD.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jun 3 2022, 00:00",
+                end: "Jun 9 2022, 23:59"
+            }
+        ]
+    },
+
+    // Nozomi Happy Birthday Box Scouting
+    {
+        "type": "Gacha",
+        "title": [
+            "Nozomi Happy Birthday Box Scouting"
+        ],
+        "image": [
+            "imgs/gacha/secretbox_2206_03_DiQEeGwj5W.png"
+        ],
+        "column": 1,
+        "priority": 3,
+        "timers": [
+            {
+                name: "Duration",
+                start: "Jun 3 2022, 00:00",
+                end: "Jun 9 2022, 23:59"
+            }
+        ]
+    },
 
     // 9th Anniversary Post Event μ's 2nd Years Limited Box Scouting
     {
@@ -351,46 +411,6 @@ var timerData = [
                 name: "SR+ Pick-up Boost Box",
                 start: "May 25 2022, 16:00",
                 end: "Jun 1 2022, 23:59"
-            }
-        ]
-    },
-
-    // Ai Birthday Box - Brilliant Jewelry (Paid Only)
-    {
-        "type": "Gacha",
-        "title": [
-            "Ai Birthday Box - Brilliant Jewelry (Paid Only)"
-        ],
-        "image": [
-            "imgs/gacha/IMG_8519.PNG"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "Duration",
-                start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59"
-            }
-        ]
-    },
-
-    // Ai Happy Birthday Box Scouting
-    {
-        "type": "Gacha",
-        "title": [
-            "Ai Happy Birthday Box Scouting"
-        ],
-        "image": [
-            "imgs/gacha/IMG_8520.PNG"
-        ],
-        "column": 1,
-        "priority": 3,
-        "timers": [
-            {
-                name: "Duration",
-                start: "May 24 2022, 00:00",
-                end: "May 30 2022, 23:59"
             }
         ]
     },
@@ -717,14 +737,14 @@ var timerData = [
 
     // *** Packs ***
 
-    // Ai Happy Birthday Pack
+    // Nozomi Happy Birthday Pack
     {
         type: "Other",
         title: [
-            "Ai Happy Birthday Pack"
+            "Nozomi Happy Birthday Pack"
         ],
         image: [
-            "imgs/packs/IMG_8514.PNG"
+            "imgs/packs/news_2206_03_TQUNKDOUf2.png"
         ],
         column: 2,
         priority: 1,
