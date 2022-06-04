@@ -17,22 +17,22 @@ var timerData = [
 
     // *** Events ***
 
-    // Round 34 CHALLENGE FESTIVAL
+    // SIF 9th Anniversary Icon Collection Event
     {
         "type": "Event",
         "title": [
-            "Round 34 CHALLENGE FESTIVAL"
+            "SIF 9th Anniversary Icon Collection Event"
         ],
         "image": [
-            "imgs/event/cf34.png"
+            "imgs/event/token_9th_ww.png"
         ],
         "column": 0,
         "priority": 2000,
         "timers": [
             {
                 name: "Main Event",
-                start: "May 20 2022, 16:00",
-                end: "May 31 2022, 14:59"
+                start: "Jun 5 2022, 16:00",
+                end: "Jun 15 2022, 14:59"
             }
         ]
     },
