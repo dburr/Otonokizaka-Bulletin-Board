@@ -1,8 +1,8 @@
 var releaseDate = "April 15 2013, 0:00";
-var possibleNextAnnouncementDate = "Jun 4 2022, 15:00";
+var possibleNextAnnouncementDate = "Jun 19 2022, 15:00";
 var nextAnniversary = "Apr 15 2023, 0:00";
-//var versionUpdate = [];
-var versionUpdate = ["9.7.5", "May 31 2022, 16:00"];
+var versionUpdate = [];
+//var versionUpdate = ["9.7.5", "May 31 2022, 16:00"];
 var alertMessages = [];
 var alertTypes = [];
 var timerData = [
@@ -51,44 +51,44 @@ var timerData = [
         "timers": [
             {
                 name: "Main Event",
-                start: "Jun 03 2022, 16:00",
-                end: "Jun 06 2022, 14:59",
+                start: "Jun 10 2022, 16:00",
+                end: "Jun 13 2022, 14:59",
                 markers: [
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 04 2022, 12:00",
+                        time: "Jun 11 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 04 2022, 17:00",
+                        time: "Jun 11 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 04 2022, 21:00",
+                        time: "Jun 11 2022, 21:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 05 2022, 12:00",
+                        time: "Jun 12 2022, 12:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 05 2022, 17:00",
+                        time: "Jun 12 2022, 17:00",
                         type: "star"
                     },
                     {
                         title: "5x EXP (for 2 hours)",
-                        time: "Jun 05 2022, 21:00",
+                        time: "Jun 12 2022, 21:00",
                         type: "star"
                     }
                ]
             }
         ]
     },
-
+    
     // Monthly Live Arena
     // For the generic image, use imgs/static/live_arena.png
     {
